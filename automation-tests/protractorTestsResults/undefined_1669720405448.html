@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Protractor Tests Results</title>
+    
+    <link rel="stylesheet" href="css/mochawesome.css">
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="report-info-cnt">
+          <h1 class="report-title">automation-tests</h1>
+          <h3 class="report-date">Tuesday, November 29 2022, 12:13pm</h3>
+        </div>
+        <div class="nav-right">
+          <div class="quick-summary-cnt">
+              <ul class="list-unstyled quick-summary">
+                <li class="qs-item summary-duration" title="Duration">6.913<span>S</span></li>
+                <li class="qs-item summary-suites" title="Suites">1</li>
+                <li class="qs-item summary-tests" title="Tests">6</li>
+                <li class="qs-item summary-passes" title="Passed" data-filter="passed">6</li>
+                <li class="qs-item summary-failures" title="Failed" data-filter="failed">0</li>
+                <li class="qs-item summary-pending" title="Pending" data-filter="pending">0</li>
+              </ul>          </div>
+          <button class="nav-menu-btn open-menu"><i class="icon-menu"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Report Summary -->
+    <div class="summary">
+      <div class="container">
+          <div class="row">
+            <div class="summary-col summary-duration">
+              <h1 class="summary-count">6.913<span>S</span></h1>
+              <h4 class="summary-label">S</h4>
+            </div>
+            <div class="summary-col summary-suites" title="Suites">
+              <h1 class="summary-count">1</h1>
+              <h4 class="summary-label">Suite</h4>
+            </div>
+            <div class="summary-col summary-tests" title="Tests">
+              <h1 class="summary-count">6</h1>
+              <h4 class="summary-label">Tests</h4>
+            </div>
+            <div class="summary-col summary-passes" data-filter="passed" title="Passed">
+              <h1 class="summary-count">6</h1>
+              <h4 class="summary-label">Passed</h4>
+            </div>
+            <div class="summary-col summary-failures" data-filter="failed" title="Failed">
+              <h1 class="summary-count">0</h1>
+              <h4 class="summary-label">Failed</h4>
+            </div>
+            <div class="summary-col summary-pending" data-filter="pending" title="Pending">
+              <h1 class="summary-count">0</h1>
+              <h4 class="summary-label">Pending</h4>
+            </div>
+          </div>      </div>
+    </div>
+    <div class="statusbar">
+      <div class="container">
+          <div class="row">
+            <div class="status-item status-item-pending-pct">0% Pending</div>
+            <div class="status-item status-item-passing-pct success">100% Passing</div>
+          </div>      </div>
+    </div>
+
+    <!-- Suites -->
+    <div class="details container">
+            <section class="suite-wrap">
+          <div id="cdec1463-2f1e-4194-b1f9-ce1d256a6a39" class="suite has-tests has-passed">
+            <h3 class="suite-title">Page de connexion</h3>
+            <h5 class="suite-filename">\scripts\testsSuites\Wikipedia\searchWord.Spec.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="cdec1463-2f1e-4194-b1f9-ce1d256a6a39" class="suite-chart" width="50" height="50" data-total-passes="6" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">6.900 s</li>
+                <li class="suite-summary-item tests">6</li>
+                <li class="suite-summary-item passed">6</li>
+                <li class="suite-summary-item failed">0</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#cdec1463-2f1e-4194-b1f9-ce1d256a6a39-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="cdec1463-2f1e-4194-b1f9-ce1d256a6a39-test-list" class="list-group test-list collapse in">
+                    <div id="ef403fea-b9ba-447a-bcee-0ee75fcf36c3" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              Lancement du navigateur et accès à l&#x27;url renseignée
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#ef403fea-b9ba-447a-bcee-0ee75fcf36c3 > .test-logr.collapse">Log </button>
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#ef403fea-b9ba-447a-bcee-0ee75fcf36c3 > .test-code.collapse">Code </button>
+              <span class="test-duration slow">653 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+        
+            <p class="test-screenshot"><button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#ef403fea-b9ba-447a-bcee-0ee75fcf36c3 > .test-scr.collapse">Screenshot </button>
+            </p>
+        <br>  <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">async</span> <br>        <span class="hljs-keyword">await</span> utils.pageAccess(init.googleUrl);</code></pre>
+          </div>
+          <div class="test-scr collapse">
+            <pre><code class="hljs small"><img src="./screenshots/1669720405458_page_de_connexion_lancement_du_navigateur_et_acc_s_l_url_renseign_e.png"></code></pre>
+          </div>
+        </div>            <div id="97a2368b-60b0-4a7e-98c0-8bf4eb765463" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              Saisie de la chaîne de caractères &#x27;wikipedia logiciel&#x27;
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#97a2368b-60b0-4a7e-98c0-8bf4eb765463 > .test-logr.collapse">Log </button>
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#97a2368b-60b0-4a7e-98c0-8bf4eb765463 > .test-code.collapse">Code </button>
+              <span class="test-duration slow">4.933 s</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+        
+            <p class="test-screenshot"><button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#97a2368b-60b0-4a7e-98c0-8bf4eb765463 > .test-scr.collapse">Screenshot </button>
+            </p>
+        <br>  <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">async</span> <br>        <span class="hljs-keyword">await</span> utils.googleSearch(<span class="hljs-string">'wikipedia logiciel'</span>);</code></pre>
+          </div>
+          <div class="test-scr collapse">
+            <pre><code class="hljs small"><img src="./screenshots/1669720406115_page_de_connexion_saisie_de_la_cha_ne_de_caract_res_wikipedia_logiciel_.png"></code></pre>
+          </div>
+        </div>            <div id="5d89b7cd-cace-44f3-9b35-599ffdee1245" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              Clic sur le résultat &#x27;Logiciel — Wikipédia&#x27;
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#5d89b7cd-cace-44f3-9b35-599ffdee1245 > .test-logr.collapse">Log </button>
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#5d89b7cd-cace-44f3-9b35-599ffdee1245 > .test-code.collapse">Code </button>
+              <span class="test-duration slow">766 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+        
+            <p class="test-screenshot"><button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#5d89b7cd-cace-44f3-9b35-599ffdee1245 > .test-scr.collapse">Screenshot </button>
+            </p>
+        <br>  <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">async</span> <br>        <span class="hljs-keyword">await</span> utils.googleResult(<span class="hljs-string">'Logiciel - Wikipédia'</span>);</code></pre>
+          </div>
+          <div class="test-scr collapse">
+            <pre><code class="hljs small"><img src="./screenshots/1669720411050_page_de_connexion_clic_sur_le_r_sultat_logiciel_wikip_dia_.png"></code></pre>
+          </div>
+        </div>            <div id="7f50be16-9b8c-44ae-9943-216738b2f39e" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              Vérification des onglets affichés sur la page Wikipedia
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#7f50be16-9b8c-44ae-9943-216738b2f39e > .test-logr.collapse">Log </button>
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#7f50be16-9b8c-44ae-9943-216738b2f39e > .test-code.collapse">Code </button>
+              <span class="test-duration slow">208 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+        
+            <p class="test-screenshot"><button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#7f50be16-9b8c-44ae-9943-216738b2f39e > .test-scr.collapse">Screenshot </button>
+            </p>
+        <br>  <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">async</span> <br>        <span class="hljs-keyword">var</span> tabTarget = {<br>			matchingResult: <span class="hljs-literal">true</span>,<br>			checkTabsOrder: <span class="hljs-literal">true</span>,<br>			tabsDef: [<br>				{<br>					tabName: <span class="hljs-string">"Lire"</span><br>				},<br>				{<br>					tabName: <span class="hljs-string">"Modifier"</span><br>				},<br>				{<br>					tabName: <span class="hljs-string">"Modifier le code"</span><br>				},<br>				{<br>					tabName: <span class="hljs-string">"Voir l’historique"</span><br>				}<br>			]<br>		}<br>		<span class="hljs-keyword">await</span> utils.wikipediaTabs(tabTarget);</code></pre>
+          </div>
+          <div class="test-scr collapse">
+            <pre><code class="hljs small"><img src="./screenshots/1669720411817_page_de_connexion_v_rification_des_onglets_affich_s_sur_la_page_wikipedia.png"></code></pre>
+          </div>
+        </div>            <div id="d80fd696-f32b-4238-a455-861a4b419b2f" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              Vérification du sommaire de la page Wikipedia
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#d80fd696-f32b-4238-a455-861a4b419b2f > .test-logr.collapse">Log </button>
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#d80fd696-f32b-4238-a455-861a4b419b2f > .test-code.collapse">Code </button>
+              <span class="test-duration slow">337 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+        
+            <p class="test-screenshot"><button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#d80fd696-f32b-4238-a455-861a4b419b2f > .test-scr.collapse">Screenshot </button>
+            </p>
+        <br>  <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">async</span> <br>		<span class="hljs-keyword">var</span> summaryTarget = [<br>            {name: <span class="hljs-string">"Début"</span>},<br>            {name: <span class="hljs-string">"Étymologie"</span>},<br>            {name: <span class="hljs-string">"Introduction"</span>},<br>            {name: <span class="hljs-string">"Typologie"</span>},<br>            {name: <span class="hljs-string">"Secteur industriel"</span>, children: [{name: <span class="hljs-string">"Philosophie libre"</span>}]},<br>            {name: <span class="hljs-string">"Licence et droits"</span>},<br>            {name: <span class="hljs-string">"Distribution"</span>},<br>            {name: <span class="hljs-string">"Construction"</span>},<br>            {name: <span class="hljs-string">"Qualité des logiciels"</span>, children: [{name: <span class="hljs-string">"Bogues"</span>}]},<br>            {name: <span class="hljs-string">"Logiciels critiques"</span>},<br>            {name: <span class="hljs-string">"Notes et références"</span>},<br>            {name: <span class="hljs-string">"Voir aussi"</span>, children: [{name: <span class="hljs-string">"Articles connexes"</span>}]}<br>        ]<br>		<span class="hljs-keyword">await</span> utils.wikipediaSummary(summaryTarget);</code></pre>
+          </div>
+          <div class="test-scr collapse">
+            <pre><code class="hljs small"><img src="./screenshots/1669720412026_page_de_connexion_v_rification_du_sommaire_de_la_page_wikipedia.png"></code></pre>
+          </div>
+        </div>            <div id="94da6f15-360e-4146-93aa-ce65980e60df" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              Saisie de chaîne de caractères - Data Driven Test
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#94da6f15-360e-4146-93aa-ce65980e60df > .test-logr.collapse">Log </button>
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#94da6f15-360e-4146-93aa-ce65980e60df > .test-code.collapse">Code </button>
+              <span class="test-duration fast">3 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+        
+            <p class="test-screenshot"><button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#94da6f15-360e-4146-93aa-ce65980e60df > .test-scr.collapse">Screenshot </button>
+            </p>
+        <br>  <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">async</span> <br>        <span class="hljs-keyword">let</span> ddt = <span class="hljs-keyword">await</span> utils.extractDataRead(__dirname + <span class="hljs-string">'//stringsToSet.csv'</span>)<br>		<span class="hljs-built_in">console</span>.log(<span class="hljs-string">"Nombre de lignes dans le fichier externe : "</span> + ddt.length);<br>		<span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; ddt.length; i++) <span class="hljs-built_in">console</span>.log(ddt[i]);<br>		<span class="hljs-comment">//for (let i = 0; i &lt; ddt.length; i++) await utils.googleSearch(ddt[i]);</span></code></pre>
+          </div>
+          <div class="test-scr collapse">
+            <pre><code class="hljs small"><img src="./screenshots/1669720412364_page_de_connexion_saisie_de_cha_ne_de_caract_res_-_data_driven_test.png"></code></pre>
+          </div>
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>Report generated by <a href="http://adamgruber.github.io/mochawesome/" target="_blank">mochawesome</a>.<br>Designed and built by <a href="https://github.com/adamgruber" target="_blank">adamgruber</a>. &copy;2022.</p>
+      </div>
+    </footer>
+
+    <!-- Nav Menu -->
+    <div class="nav-menu-wrap">
+      <div class="menu-overlay close-menu"></div>
+      <nav class="menu">
+        <button class="nav-menu-btn close-menu"><i class="icon-failed"></i></button>
+        <ul class="list-unstyled main-menu">
+                <li class="nav-menu-item">
+                <a href="#cdec1463-2f1e-4194-b1f9-ce1d256a6a39" class="nav-menu-item-link has-passes">Page de connexion</a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/vendor.js"></script>
+    <script src="js/mochawesome.js"></script>
+  </body>
+</html>

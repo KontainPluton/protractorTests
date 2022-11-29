@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Protractor Tests Results</title>
+    
+    <link rel="stylesheet" href="css/mochawesome.css">
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="report-info-cnt">
+          <h1 class="report-title">automation-tests</h1>
+          <h3 class="report-date">Tuesday, November 29 2022, 12:13pm</h3>
+        </div>
+        <div class="nav-right">
+          <div class="quick-summary-cnt">
+              <ul class="list-unstyled quick-summary">
+                <li class="qs-item summary-duration" title="Duration">10.570<span>S</span></li>
+                <li class="qs-item summary-suites" title="Suites">1</li>
+                <li class="qs-item summary-tests" title="Tests">5</li>
+                <li class="qs-item summary-passes" title="Passed" data-filter="passed">5</li>
+                <li class="qs-item summary-failures" title="Failed" data-filter="failed">0</li>
+                <li class="qs-item summary-pending" title="Pending" data-filter="pending">0</li>
+              </ul>          </div>
+          <button class="nav-menu-btn open-menu"><i class="icon-menu"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Report Summary -->
+    <div class="summary">
+      <div class="container">
+          <div class="row">
+            <div class="summary-col summary-duration">
+              <h1 class="summary-count">10.570<span>S</span></h1>
+              <h4 class="summary-label">S</h4>
+            </div>
+            <div class="summary-col summary-suites" title="Suites">
+              <h1 class="summary-count">1</h1>
+              <h4 class="summary-label">Suite</h4>
+            </div>
+            <div class="summary-col summary-tests" title="Tests">
+              <h1 class="summary-count">5</h1>
+              <h4 class="summary-label">Tests</h4>
+            </div>
+            <div class="summary-col summary-passes" data-filter="passed" title="Passed">
+              <h1 class="summary-count">5</h1>
+              <h4 class="summary-label">Passed</h4>
+            </div>
+            <div class="summary-col summary-failures" data-filter="failed" title="Failed">
+              <h1 class="summary-count">0</h1>
+              <h4 class="summary-label">Failed</h4>
+            </div>
+            <div class="summary-col summary-pending" data-filter="pending" title="Pending">
+              <h1 class="summary-count">0</h1>
+              <h4 class="summary-label">Pending</h4>
+            </div>
+          </div>      </div>
+    </div>
+    <div class="statusbar">
+      <div class="container">
+          <div class="row">
+            <div class="status-item status-item-pending-pct">0% Pending</div>
+            <div class="status-item status-item-passing-pct success">100% Passing</div>
+          </div>      </div>
+    </div>
+
+    <!-- Suites -->
+    <div class="details container">
+            <section class="suite-wrap">
+          <div id="de5de038-03a6-48cd-bb96-b0bb916474ad" class="suite has-tests has-passed">
+            <h3 class="suite-title">Page de connexion</h3>
+            <h5 class="suite-filename">\scripts\testsSuites\ImpotsGouv\gouv.Spec.js</h5>
+            <!-- Suite Chart -->
+            <div class="suite-chart-wrap">
+              <canvas id="de5de038-03a6-48cd-bb96-b0bb916474ad" class="suite-chart" width="50" height="50" data-total-passes="5" data-total-failures="0" data-total-pending="0" data-total-skipped="0"></canvas>
+            </div>
+            <div class="suite-data-wrap">
+              <!-- Suite Summary -->
+              <ul class="suite-summary list-unstyled">
+                <li class="suite-summary-item duration">10.553 s</li>
+                <li class="suite-summary-item tests">5</li>
+                <li class="suite-summary-item passed">5</li>
+                <li class="suite-summary-item failed">0</li>
+                <li class="suite-summary-item pending">0</li>
+              </ul>
+              <!-- Test Info -->
+              <div class="suite-test-wrap">
+                <div class="suite-test-header" data-toggle="collapse" data-target="#de5de038-03a6-48cd-bb96-b0bb916474ad-test-list">
+                  <h4 class="suite-test-header-title">Tests</h4>
+                </div>
+                <div id="de5de038-03a6-48cd-bb96-b0bb916474ad-test-list" class="list-group test-list collapse in">
+                    <div id="c33dcd26-aeb6-4c70-83f4-95e2138e1a68" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              Lancement du navigateur et accès à l&#x27;url renseignée
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#c33dcd26-aeb6-4c70-83f4-95e2138e1a68 > .test-logr.collapse">Log </button>
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#c33dcd26-aeb6-4c70-83f4-95e2138e1a68 > .test-code.collapse">Code </button>
+              <span class="test-duration slow">751 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+        
+            <p class="test-screenshot"><button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#c33dcd26-aeb6-4c70-83f4-95e2138e1a68 > .test-scr.collapse">Screenshot </button>
+            </p>
+        <br>  <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">async</span> <br>        <span class="hljs-keyword">await</span> utils.pageAccess(init.impotsUrl);</code></pre>
+          </div>
+          <div class="test-scr collapse">
+            <pre><code class="hljs small"><img src="./screenshots/1669720414377_page_de_connexion_lancement_du_navigateur_et_acc_s_l_url_renseign_e.png"></code></pre>
+          </div>
+        </div>            <div id="b496f5b2-ac8d-479e-875d-2ee40734c686" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              Click onglet particulier
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#b496f5b2-ac8d-479e-875d-2ee40734c686 > .test-logr.collapse">Log </button>
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#b496f5b2-ac8d-479e-875d-2ee40734c686 > .test-code.collapse">Code </button>
+              <span class="test-duration slow">548 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+        
+            <p class="test-screenshot"><button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#b496f5b2-ac8d-479e-875d-2ee40734c686 > .test-scr.collapse">Screenshot </button>
+            </p>
+        <br>  <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">async</span> <br>		expect(<span class="hljs-keyword">await</span> element(by.css(<span class="hljs-string">'a.pus-particulier'</span>)).isPresent()).to.equal(<span class="hljs-literal">true</span>, <span class="hljs-string">"L'onglet 'particulier' n'a pa été trouvé"</span>);<br>		<span class="hljs-keyword">await</span> element(by.css(<span class="hljs-string">'a.pus-particulier'</span>)).click();</code></pre>
+          </div>
+          <div class="test-scr collapse">
+            <pre><code class="hljs small"><img src="./screenshots/1669720415131_page_de_connexion_click_onglet_particulier.png"></code></pre>
+          </div>
+        </div>            <div id="42187b89-5b68-40b6-9b72-3c530d0706d9" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              Click element patrimoine
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#42187b89-5b68-40b6-9b72-3c530d0706d9 > .test-logr.collapse">Log </button>
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#42187b89-5b68-40b6-9b72-3c530d0706d9 > .test-code.collapse">Code </button>
+              <span class="test-duration slow">397 ms</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+        
+            <p class="test-screenshot"><button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#42187b89-5b68-40b6-9b72-3c530d0706d9 > .test-scr.collapse">Screenshot </button>
+            </p>
+        <br>  <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">async</span> <br>		expect(<span class="hljs-keyword">await</span> element(by.css(<span class="hljs-string">'svg#patrimoine'</span>)).isPresent()).to.equal(<span class="hljs-literal">true</span>, <span class="hljs-string">"L'élément 'patrimoine' n'a pas été trouvé"</span>);<br>		<span class="hljs-keyword">await</span> element(by.css(<span class="hljs-string">'svg#patrimoine'</span>)).click();</code></pre>
+          </div>
+          <div class="test-scr collapse">
+            <pre><code class="hljs small"><img src="./screenshots/1669720415682_page_de_connexion_click_element_patrimoine.png"></code></pre>
+          </div>
+        </div>            <div id="e3ad1328-d41c-40ce-aa38-425efd1f5277" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              Accès à la délcaration &#x27;Autres revenus&#x27;
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#e3ad1328-d41c-40ce-aa38-425efd1f5277 > .test-logr.collapse">Log </button>
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#e3ad1328-d41c-40ce-aa38-425efd1f5277 > .test-code.collapse">Code </button>
+              <span class="test-duration slow">2.617 s</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+        
+            <p class="test-screenshot"><button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#e3ad1328-d41c-40ce-aa38-425efd1f5277 > .test-scr.collapse">Screenshot </button>
+            </p>
+        <br>  <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">async</span> <br>		expect(<span class="hljs-keyword">await</span> element(by.cssContainingText(<span class="hljs-string">'td'</span>, <span class="hljs-string">'Déclarer mes revenus'</span>)).isPresent()).to.equal(<span class="hljs-literal">true</span>, <span class="hljs-string">"L'élément 'Déclarer mes revenus' n'a pas été trouvé"</span>);<br>		<span class="hljs-keyword">await</span> element(by.cssContainingText(<span class="hljs-string">'td'</span>, <span class="hljs-string">'Déclarer mes revenus'</span>)).click();<br>		<span class="hljs-keyword">await</span> browser.sleep(<span class="hljs-number">1000</span>);<br>		expect(<span class="hljs-keyword">await</span> element(by.cssContainingText(<span class="hljs-string">'a'</span>, <span class="hljs-string">'Je déclare mes autres revenus'</span>)).isPresent()).to.equal(<span class="hljs-literal">true</span>, <span class="hljs-string">"L'élément 'Je déclare mes autres revenus' n'a pas été trouvé"</span>);<br>		<span class="hljs-keyword">await</span> element(by.cssContainingText(<span class="hljs-string">'a'</span>, <span class="hljs-string">'Je déclare mes autres revenus'</span>)).click();<br>		<span class="hljs-keyword">await</span> browser.sleep(<span class="hljs-number">1000</span>);</code></pre>
+          </div>
+          <div class="test-scr collapse">
+            <pre><code class="hljs small"><img src="./screenshots/1669720416080_page_de_connexion_acc_s_la_d_lcaration_autres_revenus_.png"></code></pre>
+          </div>
+        </div>            <div id="14551e68-2d42-4afd-9518-a9fbb71af9a3" class="list-group-item test passed">
+          <!-- Test Heading -->
+          <div class="test-heading">
+            <h4 class="test-title">
+              <span class="text-muted hidden"> it </span>
+              Test barre de recherche
+            </h4>
+            <div class="pull-right">
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#14551e68-2d42-4afd-9518-a9fbb71af9a3 > .test-logr.collapse">Log </button>
+              <button class="btn btn-link btn-sm toggle-btn toggle-code collapsed" data-toggle="collapse" data-target="#14551e68-2d42-4afd-9518-a9fbb71af9a3 > .test-code.collapse">Code </button>
+              <span class="test-duration slow">6.240 s</span>
+            </div>
+          </div>
+          <!-- Test Errors -->
+        
+            <p class="test-screenshot"><button class="btn btn-link btn-sm toggle-btn toggle-stack collapsed" data-toggle="collapse" data-target="#14551e68-2d42-4afd-9518-a9fbb71af9a3 > .test-scr.collapse">Screenshot </button>
+            </p>
+        <br>  <!-- Test Code -->
+          <div class="test-code collapse">
+            <pre><code class="hljs javascript small"><span class="hljs-keyword">async</span> <br>		expect(<span class="hljs-keyword">await</span> element(by.css(<span class="hljs-string">'input.search-input'</span>)).isPresent()).to.equal(<span class="hljs-literal">true</span>, <span class="hljs-string">"La barre de recherche n'a pas été trouvé"</span>);<br>		<span class="hljs-keyword">await</span> element(by.css(<span class="hljs-string">'input.search-input'</span>)).click();<br>		<span class="hljs-keyword">await</span> browser.sleep(<span class="hljs-number">1000</span>);<br>		<span class="hljs-keyword">await</span> element(by.css(<span class="hljs-string">'input.search-input'</span>)).sendKeys(<span class="hljs-string">"Test terminé"</span>);<br>		<span class="hljs-keyword">await</span> browser.sleep(<span class="hljs-number">5000</span>);</code></pre>
+          </div>
+          <div class="test-scr collapse">
+            <pre><code class="hljs small"><img src="./screenshots/1669720418701_page_de_connexion_test_barre_de_recherche.png"></code></pre>
+          </div>
+        </div>        </div>
+              </div>
+            </div>
+        
+        
+          </div>
+        </section>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>Report generated by <a href="http://adamgruber.github.io/mochawesome/" target="_blank">mochawesome</a>.<br>Designed and built by <a href="https://github.com/adamgruber" target="_blank">adamgruber</a>. &copy;2022.</p>
+      </div>
+    </footer>
+
+    <!-- Nav Menu -->
+    <div class="nav-menu-wrap">
+      <div class="menu-overlay close-menu"></div>
+      <nav class="menu">
+        <button class="nav-menu-btn close-menu"><i class="icon-failed"></i></button>
+        <ul class="list-unstyled main-menu">
+                <li class="nav-menu-item">
+                <a href="#de5de038-03a6-48cd-bb96-b0bb916474ad" class="nav-menu-item-link has-passes">Page de connexion</a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/vendor.js"></script>
+    <script src="js/mochawesome.js"></script>
+  </body>
+</html>

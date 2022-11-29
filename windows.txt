@@ -1,0 +1,9 @@
+WINDOWS
+*******
+nvm install 16.13.0
+
+npm install -g protractor
+npm install -g mocha
+npm install
+webdriver-manager update
+webdriver-manager start
